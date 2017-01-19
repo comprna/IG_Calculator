@@ -17,9 +17,9 @@ Obtain the IG values of each feature in a subsampling method aproach. It generat
 java -cp $WEKA_PATH RandomizeMultipleArff n_samples class1 class2 [<arff_file_1> .. <arff_file_n>]
 ```
 
-### 3. Calculate the IG values
+### 3. Get the informative features
 
-From the list created in the previous step, we generate the list of events whose difference in IG between the normal and shuffle values is positive and the DeltaPSI is higher than 0.1
+From the list created in the previous step, we generate the list of features whose difference in IG between the normal and shuffle values is positive and the DeltaPSI is higher than 0.1
 
 ```
 R --silent --vanilla --args IG_tab_file arff_file < generate_list_IG_DeltaPSI.R
