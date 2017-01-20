@@ -14,7 +14,7 @@ perl convert_from-tab_to-arff.pl psi_file.tab class1 class2 > psi_file.arff
 Obtain the IG values of each feature in a subsampling method aproach. It generates 100 random subsets of the same number of samples from the two classes and calculates the IG value of each feature against each subset and with the labels shuffled, for comparing the two distributions of IG values.  n_samples is the number of samples of each class to substract per subset:
 
 ```
-java -cp $WEKA_PATH RandomizeMultipleArff n_samples class1 class2 [<arff_file_1> .. <arff_file_n>]
+java -cp $WEKA_PATH RandomizeMultipleArff -args n_samples class1 class2 [<arff_file_1> .. <arff_file_n>]
 ```
 
 ### 3. Get the informative features
