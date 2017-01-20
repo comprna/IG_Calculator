@@ -19,6 +19,7 @@
  *              Rows of the output are in the form of <attribute_name> <Normal/Shuffle> <ig_value>
  */
 
+
 //for compiling use this command: javac -cp /home/juanluis/Desktop/Work/Clinical_paper/scripts:/projects_rg/Software/weka-3-6-3/weka.jar ./RandomizeMultipleArff.java 
 
 
